@@ -1,0 +1,103 @@
+body {
+    background-color: #3399CC;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: white;
+    margin: 0;
+    border: 20px solid #2b81ac;
+    text-align: -webkit-center;
+}
+header {
+    font-size: 14px;
+    padding: 0;
+    width: 70%;
+    text-align: left;
+}
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    width: 70%;
+}
+li {
+    padding: 38px;
+    border: 3px solid white;
+    border-bottom: none;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 130px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.one {
+    background: #3399CC;
+    width: 50%;
+    border-right: 0;
+}
+.two {
+    background: #33CCCC;
+    width: 25%;
+    border-right: 0;
+}
+.three {
+    background: #996699;
+    width: 25%;
+}
+.four {
+    background: #C24747;
+    width: 25%;
+    border-right: 0;
+}
+.five {
+    background: #E2674A;
+    width: 25%;
+    border-right: 0;
+}
+.six {
+    background: #FFCC66;
+    width: 25%;
+    border-right: 0;
+}
+.seven {
+    background: #99CC99;
+    width: 25%;
+}
+.eight {
+    background: #669999;
+    width: 25%;
+    border-right: 0;
+}
+.nine {
+    background: #CC6699;
+    width: 50%;
+    border-right: 0;
+}
+.ten {
+    background: #339966;
+    width: 25%;
+}
+ul .eleven {
+    background: #666699;
+    width: 100%;
+    border-bottom: 3px solid #ffffff;
+}
+footer {
+    padding: 0;
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+.wi {
+    font-size: 30px;
+}
+ul:hover > li {
+    opacity: 0.6;
+}
+ul li:hover {
+    opacity: 1;
+}
+ul li:active {
+    background: white;
+}
